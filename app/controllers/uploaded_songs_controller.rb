@@ -5,9 +5,24 @@ class UploadedSongsController < ApplicationController
   end
 
   def create
-    @uploaded_song = UploadedSong.create(uploaded_song_params)
-    uploaded_song.file.attach(file_params)
-    render json: @Song
+    # byebug
+    @uploaded_song = UploadedSong.new(uploaded_song_params)
+    @uploaded_song.file.attach(params[:upload])
+    @uploaded_song.save
+    byebug
+    render json: {
+      title: @uploaded_song.title,
+      url: url_for(@uploaded_song.file)
+    }
+  end
+
+  def show
+    @uploaded_song = UploadedSong.find_by(id: params[:id])
+    render json: {
+      title: @uploaded_song.title,
+      url: url_for(@uploaded_song.file)
+    }
+    # render json: @uploaded_song
   end
 
   private
@@ -16,8 +31,7 @@ class UploadedSongsController < ApplicationController
     # params.require(:uploaded_song).permit(:title, :artist, :url, :bpm)
     params.permit(:title, :artist, :url, :bpm)
   end
-  def file_params
-    # params.require(:uploaded_song).permit(:title, :artist, :url, :bpm)
-    params.permit(:file)
-  end
+  # def file_params
+  #   params.permit(:upload)
+  # end
 end
