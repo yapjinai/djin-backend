@@ -40,36 +40,24 @@ class UploadedSongsController < ApplicationController
   end
 
   # BUCKET STUFF
-#   def put_in_bucket(filename, file)
-#     s3 = Aws::S3::Client.new(
-#       region: 'us-east-2',
-#       access_key_id: Figaro.env.access_key_id!,
-#       secret_access_key: Figaro.env.secret_access_key!
-#     )
-#     # byebug
-#
-#     # s3.put_object(
-#     #   bucket: 'djin',
-#     #   key: filename,
-#     #   body: file
-#     # )
-#
-#     # Check the file exists
-#     resp = s3.list_objects_v2(bucket: 'djin')
-#     resp.contents.each do |obj|
-#       puts obj.key
-#     end
-#   end
-# #
   def put_in_bucket(filename, data)
     s3 = Aws::S3::Resource.new(
       region: 'us-east-2',
       access_key_id: Figaro.env.access_key_id!,
       secret_access_key: Figaro.env.secret_access_key!
     )
+
     bucket = s3.bucket('djin')
     obj = bucket.object(filename)
+    puts Dir.pwd
+    Dir.chdir('http://localhost:3000/rails/active_storage/blobs/')
+    puts Dir.pwd
+
     obj.upload_file(url_for(data))
+
+    # File.open(url_for(data), 'rb') do |file|
+    #   obj.put(body: file)
+    # end
   end
 
   private
