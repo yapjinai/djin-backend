@@ -12,7 +12,7 @@ class UploadedSongsController < ApplicationController
     @uploaded_song = UploadedSong.create(uploaded_song_params)
     @uploaded_song.file.attach(params[:upload])
 
-    put_in_bucket(@uploaded_song.title, @uploaded_song.file.attachment)
+    # put_in_bucket(@uploaded_song.title, @uploaded_song.file.attachment)
 
     if @uploaded_song.save
       render json: {
@@ -34,27 +34,39 @@ class UploadedSongsController < ApplicationController
   end
 
   # BUCKET STUFF
+  # def put_in_bucket(filename, file)
+  #   s3 = Aws::S3::Client.new(
+  #     region: 'us-east-2',
+  #     access_key_id: 'AKIAJ3WDALQ7IOR3RIPA',
+  #     secret_access_key: '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'
+  #     # access_key_id: Figaro.env.access_key_id!,
+  #     # secret_access_key: Figaro.env.secret_access_key!
+  #   )
+  #   byebug
+  #
+  #   s3.put_object(
+  #     bucket: 'djin',
+  #     key: filename,
+  #     body: file
+  #   )
+  #
+  #   # Check the file exists
+  #   resp = s3.list_objects_v2(bucket: 'djin')
+  #   resp.contents.each do |obj|
+  #     puts obj.key
+  #   end
+  # end
+
   def put_in_bucket(filename, file)
-    s3 = Aws::S3::Client.new(
-      region: 'us-east-2',
-      access_key_id: 'AKIAJ3WDALQ7IOR3RIPA',
-      secret_access_key: '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'
-      # access_key_id: Figaro.env.access_key_id!,
-      # secret_access_key: Figaro.env.secret_access_key!
-    )
-    byebug
-
-    s3.put_object(
-      bucket: 'djin',
-      key: filename,
-      body: file
-    )
-
-    # Check the file exists
-    resp = s3.list_objects_v2(bucket: 'djin')
-    resp.contents.each do |obj|
-      puts obj.key
-    end
+    s3 = Aws::S3::Resource.new(
+        region: 'us-east-2',
+        access_key_id: 'AKIAJ3WDALQ7IOR3RIPA',
+        secret_access_key: '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'
+        # access_key_id: Figaro.env.access_key_id!,
+        # secret_access_key: Figaro.env.secret_access_key!
+      )
+    obj = s3.bucket('djin').object(filename)
+    obj.upload_file(file)
   end
 
   private
