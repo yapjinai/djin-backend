@@ -8,7 +8,7 @@ class UploadedSongsController < ApplicationController
   end
 
   def create
-    @uploaded_song = UploadedSong.create(uploaded_song_params)
+    @uploaded_song = UploadedSong.new(uploaded_song_params)
     @uploaded_song.file.attach(params[:upload])
     @uploaded_song.url = rails_blob_url(@uploaded_song.file.attachment)
 
