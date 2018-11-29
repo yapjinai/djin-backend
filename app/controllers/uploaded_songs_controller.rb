@@ -10,8 +10,7 @@ class UploadedSongsController < ApplicationController
   def create
     @uploaded_song = UploadedSong.create(uploaded_song_params)
     @uploaded_song.file.attach(params[:upload])
-
-    @uploaded_song.url = url_for(@uploaded_song.file)
+    @uploaded_song.url = url_for(@uploaded_song.file.attachment)
 
     if @uploaded_song.save
       render json: @uploaded_song, status: :ok
