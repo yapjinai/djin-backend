@@ -10,7 +10,7 @@ class UploadedSongsController < ApplicationController
   def create
     @uploaded_song = UploadedSong.create(uploaded_song_params)
     @uploaded_song.file.attach(params[:upload])
-    @uploaded_song.url = url_for(@uploaded_song.file.attachment)
+    @uploaded_song.url = rails_blob_url(@uploaded_song.file.attachment)
 
     if @uploaded_song.save
       render json: @uploaded_song, status: :ok
@@ -27,7 +27,6 @@ class UploadedSongsController < ApplicationController
   private
 
   def uploaded_song_params
-    # params.require(:uploaded_song).permit(:title, :artist, :url, :bpm)
     params.permit(:title, :artist, :url, :bpm)
   end
 end

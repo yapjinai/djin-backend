@@ -2,12 +2,12 @@ Song.delete_all
 
 baseurl = 'http://localhost:3001'
 
-s1 = Song.create(
-  title: 'Smile',
-  artist: 'Lily Allen',
-  bpm: 96,
-  url: "#{baseurl}/Smile.mp3"
-)
+# s1 = Song.create(
+#   title: 'Smile',
+#   artist: 'Lily Allen',
+#   bpm: 96,
+#   url: "#{baseurl}/Smile.mp3"
+# )
 s2 = Song.create(
   title: 'Born To Die',
   artist: 'Lana Del Rey',
