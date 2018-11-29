@@ -54,7 +54,12 @@ class UploadedSongsController < ApplicationController
     # S3
 
     # Configure SDK
-    s3 = Aws::S3::Client.new(profile: profile_name, region: region)
+    s3 = Aws::S3::Client.new(
+      profile: profile_name,
+      region: region
+      access_key_id: 'your_access_key_id',
+      secret_access_key: 'your_secret_access_key'
+    )
 
     resp = s3.list_buckets
     resp.buckets.each do |bucket|
