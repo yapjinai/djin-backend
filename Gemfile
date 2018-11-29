@@ -45,6 +45,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "figaro"
-gem 'aws-sdk-s3'
+# gem 'aws-sdk-s3'
 # gem 'aws-sdk-rails'
 gem 'aws-sdk'

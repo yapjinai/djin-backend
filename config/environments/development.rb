@@ -54,4 +54,6 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
   # Rails.application.routes.default_url_options[:host] = 'https://s3.us-east-2.amazonaws.com/djin'
+  Rails.application.routes.default_url_options[:host] = 'http://localhost:3000'
+
 end
