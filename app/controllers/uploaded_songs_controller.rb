@@ -1,3 +1,6 @@
+require 'aws-sdk-s3'  # v2: require 'aws-sdk'
+require 'json'
+
 class UploadedSongsController < ApplicationController
   def index
     @UploadedSongs = UploadedSong.all
@@ -5,31 +8,20 @@ class UploadedSongsController < ApplicationController
   end
 
   def create
-    byebug
+    # byebug
     @uploaded_song = UploadedSong.create(uploaded_song_params)
     @uploaded_song.file.attach(params[:upload])
 
-    # amazon stuff
-    def prepare_file(data)
-      start_date = 2.months.ago.strftime("%Y%m%d")
-      end_date = 3.months.ago.strftime("%Y%m%d")
+    put_in_bucket(@uploaded_song.title, @uploaded_song.file.attachment)
 
-      filename = "#{start_date}-#{end_date}.json"
-      file = File.open(File.join(Dir.pwd, '/tmp', filename), "w")
-      file.puts(data.to_json)
-      file.close
-      file
+    if @uploaded_song.save
+      render json: {
+        title: @uploaded_song.title,
+        url: url_for(@uploaded_song.file)
+      }, status: :ok
+    else
+      render json: nil, status: 500
     end
-
-    s3 = Aws::S3::Resource.new
-    obj = s3.bucket(S3_BUCKET).object('name of file')
-    obj.upload_file(url_for(@uploaded_song.file))
-
-    # byebug
-    render json: {
-      title: @uploaded_song.title,
-      url: url_for(@uploaded_song.file)
-    }
   end
 
   def show
@@ -42,28 +34,26 @@ class UploadedSongsController < ApplicationController
   end
 
   # BUCKET STUFF
-  def bucket_stuff
-    require 'aws-sdk-s3'  # v2: require 'aws-sdk'
-    require 'json'
-
-    profile_name = 'file'
-    region = "us-east-1"
-    bucket = 'djin'
-    my_bucket = 'djin'
-
-    # S3
-
-    # Configure SDK
+  def put_in_bucket(filename, file)
     s3 = Aws::S3::Client.new(
-      profile: profile_name,
-      region: region
-      access_key_id: 'your_access_key_id',
-      secret_access_key: 'your_secret_access_key'
+      region: 'us-east-2',
+      access_key_id: 'AKIAJ3WDALQ7IOR3RIPA',
+      secret_access_key: 'zd27DP5RLc88VISaSAZyGUv6XcjiR10ULPgOmBi2'
+      # access_key_id: Figaro.env.access_key_id!,
+      # secret_access_key: Figaro.env.secret_access_key!
+    )
+    byebug
+
+    s3.put_object(
+      bucket: 'djin',
+      key: filename,
+      body: file
     )
 
-    resp = s3.list_buckets
-    resp.buckets.each do |bucket|
-      puts bucket.name
+    # Check the file exists
+    resp = s3.list_objects_v2(bucket: 'djin')
+    resp.contents.each do |obj|
+      puts obj.key
     end
   end
 
