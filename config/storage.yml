@@ -8,8 +8,8 @@ local:
 
 # amazon:
 #   service: S3
-#   access_key_id: AKIAJ3WDALQ7IOR3RIPA
-#   secret_access_key: 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
+#   access_key_id: ENV["access_key_id"]
+#   secret_access_key: ENV["secret_access_key"]
 #   region: us-east-2
 #   bucket: djin
 
