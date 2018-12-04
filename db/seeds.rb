@@ -132,6 +132,6 @@ s21= Song.create(
 s22= Song.create(
   title: 'Birthday Cake',
   artist: 'Rihanna',
-  bpm: 80,
+  bpm: 160,
   url: "#{baseurl}/BirthdayCake.mp3"
 )
