@@ -41,6 +41,7 @@ ActiveRecord::Schema.define(version: 2018_11_28_200649) do
     t.string "artist"
     t.integer "bpm"
     t.string "url"
+    t.string "tags"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

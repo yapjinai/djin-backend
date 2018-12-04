@@ -5,6 +5,7 @@ class CreateSongs < ActiveRecord::Migration[5.2]
       t.string :artist
       t.integer :bpm
       t.string :url
+      t.string :tags
 
       t.timestamps
     end
