@@ -380,7 +380,7 @@ Song.create(
   title: "Sex On The Beach",
   artist: "Spankers",
   bpm: 128,
-  url: "#{baseurl}/Sex On The Beach.mp3",
+  url: "#{baseurl}/SexOnTheBeach.mp3",
   tags: "pop, house, beat"
 )
 Song.create(

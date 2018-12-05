@@ -39,7 +39,7 @@ ActiveRecord::Schema.define(version: 2018_11_28_200649) do
   create_table "songs", force: :cascade do |t|
     t.string "title"
     t.string "artist"
-    t.integer "bpm"
+    t.float "bpm"
     t.string "url"
     t.string "tags"
     t.datetime "created_at", null: false
@@ -49,8 +49,9 @@ ActiveRecord::Schema.define(version: 2018_11_28_200649) do
   create_table "uploaded_songs", force: :cascade do |t|
     t.string "title"
     t.string "artist"
-    t.integer "bpm"
+    t.float "bpm"
     t.string "url"
+    t.string "tags"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
