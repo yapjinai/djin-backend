@@ -22,21 +22,21 @@ Song.create(
   artist: 'Disclosure',
   bpm: 122,
   url: "#{baseurl}/Latch.mp3",
-  tags: "house, straight beat"
+  tags: "house, beat"
 )
 Song.create(
   title: 'Super Natural',
   artist: 'Carly Rae Jepsen',
   bpm: 128,
   url: "#{baseurl}/SuperNatural.mp3",
-  tags: "pop, straight beat"
+  tags: "pop, beat"
 )
 Song.create(
   title: 'Get Got',
   artist: 'Death Grips',
   bpm: 87,
   url: "#{baseurl}/GetGot.mp3",
-  tags: "hip hop"
+  tags: "hiphop"
 )
 Song.create(
   title: 'Goooo',
@@ -86,28 +86,28 @@ Song.create(
   artist: 'Mykki Blanco',
   bpm: 95,
   url: "#{baseurl}/Wavvy.mp3",
-  tags: "hip hop, straight beat"
+  tags: "hiphop, beat"
 )
 Song.create(
   title: 'Kiss',
   artist: 'GFOTY',
   bpm: 130,
   url: "#{baseurl}/Kiss.wav",
-  tags: "pop, straight beat"
+  tags: "pop, beat"
 )
 Song.create(
   title: 'Dead Island',
   artist: 'Kitty',
   bpm: 117,
   url: "#{baseurl}/DeadIsland.mp3",
-  tags: "pop, hip hop"
+  tags: "pop, hiphop"
 )
 Song.create(
   title: 'VYZEE',
   artist: 'SOPHIE',
   bpm: 130,
   url: "#{baseurl}/VYZEE.mp3",
-  tags: "pop, straight beat"
+  tags: "pop, beat"
 )
 Song.create(
   title: 'Thunder Bay',
@@ -128,35 +128,35 @@ Song.create(
   artist: 'Charlie White and Boom Bip',
   bpm: 130,
   url: "#{baseurl}/Georgia.mp3",
-  tags: "house, straight beat"
+  tags: "house, beat"
 )
 Song.create(
   title: 'Money On A Gold Plate',
   artist: 'A. G. Cook',
   bpm: 160,
   url: "#{baseurl}/MoneyOnAGoldPlate.mp3",
-  tags: "pop, straight beat"
+  tags: "pop, beat"
 )
 Song.create(
   title: 'Lover',
   artist: 'GFOTY',
   bpm: 170,
   url: "#{baseurl}/Lover.wav",
-  tags: "pop, straight beat"
+  tags: "pop, beat"
 )
 Song.create(
   title: 'Inspector Norse',
   artist: 'Todd Terje',
   bpm: 120,
   url: "#{baseurl}/InspectorNorse.mp3",
-  tags: "house, straight beat"
+  tags: "house, beat"
 )
 Song.create(
   title: 'Birthday Cake',
   artist: 'Rihanna',
   bpm: 160,
   url: "#{baseurl}/BirthdayCake.mp3",
-  tags: "pop, straight beat"
+  tags: "pop, beat"
 )
 ###########################################
 Song.create(
@@ -164,21 +164,21 @@ Song.create(
   artist: "Zebra Katz",
   bpm: 125,
   url: "#{baseurl}/ImaRead.mp3",
-  tags: "house, hip hop, straight beat"
+  tags: "house, hiphop, beat"
 )
 Song.create(
   title: "We No Speak Americano",
   artist: "Yolanda Be Cool and DCUP",
   bpm: 125,
   url: "#{baseurl}/WeNoSpeakAmericano.mp3",
-  tags: "house, straight beat"
+  tags: "house, beat"
 )
 Song.create(
   title: "Heads Will Roll",
   artist: "Yeah Yeah Yeahs (A-Trak Remix)",
   bpm: 132,
   url: "#{baseurl}/HeadsWillRoll.mp3",
-  tags: "pop, house, straight beat"
+  tags: "pop, house, beat"
 )
 Song.create(
   title: "Sacrilege",
@@ -192,14 +192,14 @@ Song.create(
   artist: "Yo Gotti ft. Nicki Minaj",
   bpm: 153,
   url: "#{baseurl}/DownInTheDM.mp3",
-  tags: "hip hop"
+  tags: "hiphop"
 )
 Song.create(
   title: "I Am The Best",
   artist: "2NE1",
   bpm: 128,
   url: "#{baseurl}/IAmTheBest.mp3",
-  tags: "pop, trap, straight beat"
+  tags: "pop, trap, beat"
 )
 Song.create(
   title: "Nobody",
@@ -220,77 +220,77 @@ Song.create(
   artist: "Wavy Spice (Princess Nokia)",
   bpm: 110,
   url: "#{baseurl}/VersaceHottie.mp3",
-  tags: "pop, hip hop"
+  tags: "pop, hiphop"
 )
 Song.create(
   title: "Yeah",
   artist: "Usher",
   bpm: 105,
   url: "#{baseurl}/Yeah.mp3",
-  tags: "r&b, hip hop"
+  tags: "rnb, hiphop"
 )
 Song.create(
   title: "Lanzarote",
   artist: "Todd Terje and Lindstrøm",
   bpm: 124,
   url: "#{baseurl}/Lanzarote.mp3",
-  tags: "house, straight beat"
+  tags: "house, beat"
 )
 Song.create(
   title: "No Scrubs",
   artist: "TLC",
   bpm: 93,
   url: "#{baseurl}/NoScrubs.mp3",
-  tags: "pop, r&b"
+  tags: "pop, rnb"
 )
 Song.create(
   title: "Feels Like Vegas",
   artist: "Tinashe",
   bpm: 130,
   url: "#{baseurl}/FeelsLikeVegas.mp3",
-  tags: "r&b, hip hop"
+  tags: "rnb, hiphop"
 )
 Song.create(
   title: "All Hands On Deck",
   artist: "Tinashe",
   bpm: 97,
   url: "#{baseurl}/AllHandsOnDeck.mp3",
-  tags: "r&b, hip hop"
+  tags: "rnb, hiphop"
 )
 Song.create(
   title: "2 On",
   artist: "Tinashe",
   bpm: 101,
   url: "#{baseurl}/2On.mp3",
-  tags: "r&b, hip hop"
+  tags: "rnb, hiphop"
 )
 Song.create(
   title: "Werkin Girls",
   artist: "Angel Haze",
   bpm: 152,
   url: "#{baseurl}/WerkinGirls.mp3",
-  tags: "hip hop, straight beat"
+  tags: "hiphop, beat"
 )
 Song.create(
   title: "Big Spender",
   artist: "Theophilus London ft. A$AP Rocky",
   bpm: 130,
   url: "#{baseurl}/BigSpender.mp3",
-  tags: "trap, hip hop"
+  tags: "trap, hiphop"
 )
 Song.create(
   title: "Can't Feel My Face",
   artist: "The Weeknd",
   bpm: 108,
   url: "#{baseurl}/Can'tFeelMyFace.mp3",
-  tags: "pop, r&b, straight beat"
+  tags: "pop, rnb, beat"
 )
 Song.create(
   title: "Heartbeats",
   artist: "The Knife",
   bpm: 88,
   url: "#{baseurl}/Heartbeats.mp3",
-  tags: "pop, straight beat"
+  tags: "pop, beat"
 )
 Song.create(
   title: "Mr. Brightside",
@@ -318,7 +318,7 @@ Song.create(
   artist: "Taylor Swift",
   bpm: 130,
   url: "#{baseurl}/YouBelongWithMe.m4a",
-  tags: "pop, straight beat"
+  tags: "pop, beat"
 )
 Song.create(
   title: "Bad Blood",
@@ -353,14 +353,14 @@ Song.create(
   artist: "Taio Cruz",
   bpm: 120,
   url: "#{baseurl}/Dynamite.mp3",
-  tags: "pop, house, straight beat"
+  tags: "pop, house, beat"
 )
 Song.create(
   title: "Alors On Danse",
   artist: "Stromae",
   bpm: 120,
   url: "#{baseurl}/AlorsOnDanse.mp3",
-  tags: "house, straight beat"
+  tags: "house, beat"
 )
 Song.create(
   title: "Bring Me Your Loves",
@@ -381,28 +381,28 @@ Song.create(
   artist: "Spankers",
   bpm: 128,
   url: "#{baseurl}/Sex On The Beach.mp3",
-  tags: "pop, house, straight beat"
+  tags: "pop, house, beat"
 )
 Song.create(
   title: "Are You That Somebody?",
   artist: "Aaliyah",
   bpm: 139,
   url: "#{baseurl}/AreYouThatSomebody.mp3",
-  tags: "pop, r&b"
+  tags: "pop, rnb"
 )
 Song.create(
   title: "HARD",
   artist: "SOPHIE",
   bpm: 84,
   url: "#{baseurl}/HARD.mp3",
-  tags: "pop, trap, straight beat"
+  tags: "pop, trap, beat"
 )
 Song.create(
   title: "LEMONADE",
   artist: "SOPHIE",
   bpm: 143,
   url: "#{baseurl}/LEMONADE.mp3",
-  tags: "pop, trap, straight beat"
+  tags: "pop, trap, beat"
 )
 Song.create(
   title: "BIPP",
@@ -535,28 +535,28 @@ Song.create(
   artist: "Sean Paul",
   bpm: 125,
   url: "#{baseurl}/Temperature.mp3",
-  tags: "pop, hip hop, straight beat"
+  tags: "pop, hiphop, beat"
 )
 Song.create(
   title: "Get Busy",
   artist: "Sean Paul",
   bpm: 100,
   url: "#{baseurl}/GetBusy.mp3",
-  tags: "pop, hip hop, straight beat"
+  tags: "pop, hiphop, beat"
 )
 Song.create(
   title: "Loca People (What The Fuck)",
   artist: "Sak Noel",
   bpm: 128,
   url: "#{baseurl}/LocaPeople.mp3",
-  tags: "house, straight beat"
+  tags: "house, beat"
 )
 Song.create(
   title: "Gas Pedal",
   artist: "Sage the Gemini",
   bpm: 97,
   url: "#{baseurl}/GasPedal.mp3",
-  tags: "r&b"
+  tags: "rnb"
 )
 Song.create(
   title: "Soldier Of Love",
@@ -591,91 +591,91 @@ Song.create(
   artist: "Rustie ft. Danny Brown",
   bpm: 138,
   url: "#{baseurl}/Attak.mp3",
-  tags: "trap, hip hop, straight beat"
+  tags: "trap, hiphop, beat"
 )
 Song.create(
   title: "Love Again",
   artist: "Run The Jewels",
   bpm: 146,
   url: "#{baseurl}/LoveAgain.mp3",
-  tags: "hip hop"
+  tags: "hiphop"
 )
 Song.create(
   title: "Crown",
   artist: "Run The Jewels",
   bpm: 164,
   url: "#{baseurl}/Crown.mp3",
-  tags: "hip hop"
+  tags: "hiphop"
 )
 Song.create(
   title: "Lie Cheat Steal",
   artist: "Run The Jewels",
   bpm: 166,
   url: "#{baseurl}/LieCheatSteal.mp3",
-  tags: "hip hop"
+  tags: "hiphop"
 )
 Song.create(
   title: "All My Life",
   artist: "Run The Jewels",
   bpm: 134,
   url: "#{baseurl}/AllMyLife.mp3",
-  tags: "hip hop"
+  tags: "hiphop"
 )
 Song.create(
   title: "Oh My Darling Don't Cry",
   artist: "Run The Jewels",
   bpm: 104,
   url: "#{baseurl}/OhMyDarlingDon'tCry.mp3",
-  tags: "hip hop"
+  tags: "hiphop"
 )
 Song.create(
   title: "Get It",
   artist: "Run The Jewels",
   bpm: 80,
   url: "#{baseurl}/GetIt.mp3",
-  tags: "hip hop"
+  tags: "hiphop"
 )
 Song.create(
   title: "Run The Jewels",
   artist: "Run The Jewels",
   bpm: 77,
   url: "#{baseurl}/RunTheJewels.mp3",
-  tags: "hip hop"
+  tags: "hiphop"
 )
 Song.create(
   title: "Stay Gold",
   artist: "Run The Jewels",
   bpm: 144,
   url: "#{baseurl}/StayGold.mp3",
-  tags: "hip hop"
+  tags: "hiphop"
 )
 Song.create(
   title: "Panther Like A Panther",
   artist: "Run The Jewels",
   bpm: 164,
   url: "#{baseurl}/PantherLikeAPanther.mp3",
-  tags: "hip hop"
+  tags: "hiphop"
 )
 Song.create(
   title: "No Love Allowed",
   artist: "Rihanna",
   bpm: 90,
   url: "#{baseurl}/NoLoveAllowed.mp3",
-  tags: "pop, straight beat"
+  tags: "pop, beat"
 )
 Song.create(
   title: "Pour It Up",
   artist: "Rihanna",
   bpm: 134,
   url: "#{baseurl}/PourItUp.mp3",
-  tags: "pop, r&b"
+  tags: "pop, rnb"
 )
 Song.create(
   title: "Where Have You Been",
   artist: "Rihanna",
   bpm: 129,
   url: "#{baseurl}/WhereHaveYouBeen.m4a",
-  tags: "pop, house, straight beat"
+  tags: "pop, house, beat"
 )
 Song.create(
   title: "Rude Boy",
@@ -689,7 +689,7 @@ Song.create(
   artist: "Rihanna",
   bpm: 128,
   url: "#{baseurl}/S&M.m4a",
-  tags: "pop, straight beat"
+  tags: "pop, beat"
 )
 # Song.create(
 #   title: "Disturbia",
