@@ -212,7 +212,7 @@ Song.create(
   title: "Seize The Day",
   artist: "Wax Tailor",
   bpm: 83,
-  url: "#{baseurl}/Seize The Day.mp3",
+  url: "#{baseurl}/SeizeTheDay.mp3",
   tags: "house"
 )
 Song.create(
