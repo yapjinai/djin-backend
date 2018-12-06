@@ -713,13 +713,6 @@ Song.create(
   tags: "pop,trap,hiphop"
 )
 Song.create(
-  title: "Never Gonna Give You Up",
-  artist: "Rick Astley",
-  bpm: 113,
-  url: "#{baseurl}/NeverGonnaGiveYouUp.mp3",
-  tags: "pop"
-)
-Song.create(
   title: "Sanctified",
   artist: "Rick Ross",
   bpm: 126.041,
@@ -756,7 +749,7 @@ Song.create(
 )
 Song.create(
   title: "No Flex Zone",
-  artist: "Rae SremmurdRae Sremmurd",
+  artist: "Rae Sremmurd",
   bpm: 120.08,
   url: "#{baseurl}/NoFlexZone.mp3",
   tags: "hiphop"
