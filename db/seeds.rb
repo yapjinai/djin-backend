@@ -773,21 +773,21 @@ Song.create(
   artist: "Radiohead",
   bpm: 149.582,
   url: "#{baseurl}/2+2=5.mp3",
-  tags: "x"
+  tags: ""
 )
 Song.create(
   title: "15 Step",
   artist: "Radiohead",
   bpm: 94.457,
   url: "#{baseurl}/15Step.MP3",
-  tags: "x"
+  tags: "sean"
 )
 Song.create(
   title: "Everything In Its Right Place",
   artist: "Radiohead",
   bpm: 124.004,
   url: "#{baseurl}/EverythingInItsRightPlace.mp3",
-  tags: "x"
+  tags: "sean"
 )
 Song.create(
   title: "Hey QT",
@@ -845,13 +845,6 @@ Song.create(
   url: "#{baseurl}/AllNight.mp3",
   tags: "house,trap"
 )
-# Song.create(
-#   title: "B.O.B.",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/B.O.B..mp3",
-#   tags: ""
-# )
 Song.create(
   title: "Ms. Jackson",
   artist: "Outkast",
@@ -906,7 +899,7 @@ Song.create(
   artist: "Nirvana",
   bpm: 116.775,
   url: "#{baseurl}/SmellsLikeTeenSpirit.mp3",
-  tags: "x"
+  tags: ""
 )
 Song.create(
   title: "I Got A Woman",
@@ -992,594 +985,6 @@ Song.create(
   url: "#{baseurl}/ComeOnACone.mp3",
   tags: "pop,hiphop,weird,beat"
 )
-# Song.create(
-#   title: "Promiscuous",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/Promiscuous.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Bang, Bang",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/Bang,Bang.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "These Boots Are Made For Walkin'",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/TheseBootsAreMadeForWalkin'.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Lukas",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/Lukas.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "I'll Make A Man Out Of You",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/I'llMakeAManOutOfYou.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Get Ur Freak On",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/GetUrFreakOn.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Wrecking Ball",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/WreckingBall.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "See You Again",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/SeeYouAgain.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Billie Jean",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/BillieJean.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Beat It",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/BeatIt.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Thriller",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/Thriller.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Electric Feel",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/ElectricFeel.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "The Safety Dance",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/TheSafetyDance.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Perfect(Exceeder)",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/Perfect(Exceeder).mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Got It",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/GotIt.m4a",
-#   tags: ""
-# )
-# Song.create(
-#   title: "One Time",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/OneTime.m4a",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Lean On",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/LeanOn.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Too Original",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/TooOriginal.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Get Free",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/GetFree.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Bubble Butt",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/BubbleButt.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Pon De Floor",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/PonDeFloor.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Like A Virgin",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/LikeAVirgin.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Vogue",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/Vogue.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Material Girl",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/MaterialGirl.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Justify My Love",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/JustifyMyLove.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Like A Prayer",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/LikeAPrayer.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Bad Girls",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/BadGirls.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Royals",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/Royals.m4a",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Shots",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/Shots.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Funkytown",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/Funkytown.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Doodle",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/Doodle.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Alfie",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/Alfie.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "BITCH I'M LUGUBRI O U S",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/BITCHI'MLUGUBRIOUS.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Lip Gloss",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/LipGloss.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "W U T",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/WUT.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Deceptacon",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/Deceptacon.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Dance Yrself Clean",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/DanceYrselfClean.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Home",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/Home.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Tribulations",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/Tribulations.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Daft Punk Is Playing At My House",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/DaftPunkIsPlayingAtMyHouse.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "The Ketchup Song",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/TheKetchupSong.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "National Anthem",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/NationalAnthem.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Off To The Races",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/OffToTheRaces.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Poker Face",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/PokerFace.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Love Game",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/LoveGame.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Paparazzi",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/Paparazzi.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Alejandro",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/Alejandro.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Bad Romance",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/BadRomance.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Judas",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/Judas.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Sexxx Dreams",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/SexxxDreams.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "IWanna Be Your Lover",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/IWannaBeYourLover.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "PONPON P O N",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/PONPONPON.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Gucci Gucci",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/GucciGucci.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Dum Dee Dum",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/DumDeeDum.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Backstreet Freestyle",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/BackstreetFreestyle.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "HUMBLE",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/HUMBLE.m4a",
-#   tags: ""
-# )
-# Song.create(
-#   title: "D N A",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/DNA.m4a",
-#   tags: ""
-# )
-# Song.create(
-#   title: "TiK ToK",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/TiKToK.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "I Kissed A Girl",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/IKissedAGirl.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Last Friday Night (T.G.I.F.)",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/LastFridayNight(T.G.I.F.).mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Teenage Dream",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/TeenageDream.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Mercy",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/Mercy.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "I'm In It",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/I'mInIt.m4a",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Send It Up",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/SendItUp.m4a",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Black Skinhead",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/BlackSkinhead.m4a",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Feedback",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/Feedback.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Wolves",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/Wolves.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Fade",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/Fade.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Famous",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/Famous.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Monster",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/Monster.m4a",
-#   tags: ""
-# )
-# Song.create(
-#   title: "All Of The Lights",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/AllOfTheLights.m4a",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Power",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/Power.m4a",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Gold Digger",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/GoldDigger.m4a",
-#   tags: ""
-# )
-# Song.create(
-#   title: "The New Workout Plan",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/TheNewWorkoutPlan.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Intuition",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/Intuition.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Don't Tell' Em",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/Don'tTell'Em.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "All The Time",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/AllTheTime.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Jenny From The Block",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/JennyFromTheBlock.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Gotta Have It",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/GottaHaveIt.m4a",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Niggas In Paris",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/NiggasInParis.m4a",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Hit The Quan",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/HitTheQuan.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "I Love It",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/ILoveIt.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Rich Girl",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/RichGirl.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "The Sweet Escape",
-#   artist: "",
-#   bpm: ,
-#   url: "#{baseurl}/TheSweetEscape.mp3",
-#   tags: ""
-# )
 # Song.create(
 #   title: "Hollaback Girl",
 #   artist: "",
@@ -2772,14 +2177,14 @@ Song.create(
   artist: "Radiohead",
   bpm: 109.076,
   url: "#{otherbaseurl}/Radiohead+-+Lotus+Flower.mp3",
-  tags: "flatiron"
+  tags: "flatiron sean"
 )
 Song.create(
   title: "Home",
   artist: "LCD Soundsystem",
   bpm: 124.013,
   url: "#{otherbaseurl}/LCD+Soundsystem+-+Home.mp3",
-  tags: "flatiron"
+  tags: "flatiron sean"
 )
 Song.create(
   title: "Bring Sally Up",
@@ -2829,4 +2234,574 @@ Song.create(
   bpm: 129.221,
   url: "#{otherbaseurl}/Baha+Men+-+Who+Let+The+Dogs+Out+Lyrics.mp3",
   tags: "flatiron"
+)
+Song.create(
+  title: "B.O.B.",
+  artist: "Outkast",
+  bpm: 153.856,
+  url: "#{baseurl}/B.O.B..mp3",
+  tags: ""
+)
+Song.create(
+  title: "Promiscuous",
+  artist: "Nelly Furtado",
+  bpm: 114.316,
+  url: "#{baseurl}/Promiscuous.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Bang, Bang",
+  artist: "Nancy SInatra",
+  bpm: 186.46,
+  url: "#{baseurl}/Bang,Bang.mp3",
+  tags: ""
+)
+Song.create(
+  title: "These Boots Are Made For Walkin'",
+  artist: "Nancy SInatra",
+  bpm: 82.742,
+  url: "#{baseurl}/TheseBootsAreMadeForWalkin'.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Lukas",
+  artist: "Mykki Blanco ft. No Bra",
+  bpm: 175.873,
+  url: "#{baseurl}/Lukas.mp3",
+  tags: ""
+)
+Song.create(
+  title: "I'll Make A Man Out Of You",
+  artist: "Mulan Soundtrack",
+  bpm: 113.845,
+  url: "#{baseurl}/I'llMakeAManOutOfYou.mp3",
+  tags: "weird"
+)
+Song.create(
+  title: "Get Ur Freak On",
+  artist: "Missy Elliott",
+  bpm: 177.87,
+  url: "#{baseurl}/GetUrFreakOn.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Wrecking Ball",
+  artist: "Miley Cyrus",
+  bpm: 119.964,
+  url: "#{baseurl}/WreckingBall.mp3",
+  tags: ""
+)
+Song.create(
+  title: "See You Again",
+  artist: "Miley Cyrus",
+  bpm: 138.95,
+  url: "#{baseurl}/SeeYouAgain.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Billie Jean",
+  artist: "Michael Jackson",
+  bpm: 117.046,
+  url: "#{baseurl}/BillieJean.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Beat It",
+  artist: "Michael Jackson",
+  bpm: 138.858,
+  url: "#{baseurl}/BeatIt.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Thriller",
+  artist: "Michael Jackson",
+  bpm: 118.421,
+  url: "#{baseurl}/Thriller.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Electric Feel",
+  artist: "MGMT",
+  bpm: 103.038,
+  url: "#{baseurl}/ElectricFeel.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Safety Dance",
+  artist: "Men Without Hats",
+  bpm: 101.641,
+  url: "#{baseurl}/TheSafetyDance.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Perfect (Exceeder)",
+  artist: "Mason vs. Princess Superstar",
+  bpm: 127.88,
+  url: "#{baseurl}/Perfect(Exceeder).mp3",
+  tags: ""
+)
+Song.create(
+  title: "Got It",
+  artist: "Marian Hill",
+  bpm: 81.982,
+  url: "#{baseurl}/GotIt.m4a",
+  tags: ""
+)
+Song.create(
+  title: "One Time",
+  artist: "Marian Hill",
+  bpm: 159.827,
+  url: "#{baseurl}/OneTime.m4a",
+  tags: ""
+)
+Song.create(
+  title: "Lean On",
+  artist: "Major Lazer",
+  bpm: 98.007,
+  url: "#{baseurl}/LeanOn.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Too Original",
+  artist: "Major Lazer",
+  bpm: 128.014,
+  url: "#{baseurl}/TooOriginal.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Get Free",
+  artist: "Major Lazer",
+  bpm: 87.94,
+  url: "#{baseurl}/GetFree.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Bubble Butt",
+  artist: "Major Lazer",
+  bpm: 194.072,
+  url: "#{baseurl}/BubbleButt.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Pon De Floor",
+  artist: "Major Lazer",
+  bpm: 126.973,
+  url: "#{baseurl}/PonDeFloor.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Like A Virgin",
+  artist: "Madonna",
+  bpm: 119.754,
+  url: "#{baseurl}/LikeAVirgin.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Vogue",
+  artist: "Madonna",
+  bpm: 115.998,
+  url: "#{baseurl}/Vogue.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Material Girl",
+  artist: "Madonna",
+  bpm: 136.506,
+  url: "#{baseurl}/MaterialGirl.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Justify My Love",
+  artist: "Madonna",
+  bpm: 99.642,
+  url: "#{baseurl}/JustifyMyLove.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Like A Prayer",
+  artist: "Madonna",
+  bpm: 111.037,
+  url: "#{baseurl}/LikeAPrayer.mp3",
+  tags: ""
+)
+
+Song.create(
+  title: "Bad Girls",
+  artist: "M.I.A.",
+  bpm: 143.434,
+  url: "#{baseurl}/BadGirls.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Royals",
+  artist: "Lorde",
+  bpm: 84.778,
+  url: "#{baseurl}/Royals.m4a",
+  tags: ""
+)
+Song.create(
+  title: "Shots",
+  artist: "LMFAO",
+  bpm: 127.996,
+  url: "#{baseurl}/Shots.mp3",
+  tags: "weird"
+)
+Song.create(
+  title: "Funkytown",
+  artist: "Lipps Inc.",
+  bpm: 122.883,
+  url: "#{baseurl}/Funkytown.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Doodle",
+  artist: "Lipgloss Twins",
+  bpm: 159.886,
+  url: "#{baseurl}/Doodle.mp3",
+  tags: "weird"
+)
+Song.create(
+  title: "Alfie",
+  artist: "Lily Allen",
+  bpm: 120.009,
+  url: "#{baseurl}/Alfie.mp3",
+  tags: "weird"
+)
+Song.create(
+  title: "BITCH I'M LUGUBRIOUS",
+  artist: "Lil Ugly Mane",
+  bpm: 143.826,
+  url: "#{baseurl}/BITCHI'MLUGUBRIOUS.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Lip Gloss",
+  artist: "Lil Mama",
+  bpm: 188.772,
+  url: "#{baseurl}/LipGloss.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Wut",
+  artist: "Le1f",
+  bpm: 92.978,
+  url: "#{baseurl}/WUT.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Deceptacon",
+  artist: "Le Tigre",
+  bpm: 160.488,
+  url: "#{baseurl}/Deceptacon.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Dance Yrself Clean",
+  artist: "LCD Soundsystem",
+  bpm: 98.004,
+  url: "#{baseurl}/DanceYrselfClean.mp3",
+  tags: "sean"
+)
+Song.create(
+  title: "Tribulations",
+  artist: "LCD Soundsystem",
+  bpm: 132.012,
+  url: "#{baseurl}/Tribulations.mp3",
+  tags: "sean"
+)
+Song.create(
+  title: "Daft Punk Is Playing At My House",
+  artist: "LCD Soundsystem",
+  bpm: 135.923,
+  url: "#{baseurl}/DaftPunkIsPlayingAtMyHouse.mp3",
+  tags: "sean"
+)
+Song.create(
+  title: "The Ketchup Song",
+  artist: "Las Ketchup",
+  bpm: 184.819,
+  url: "#{baseurl}/TheKetchupSong.mp3",
+  tags: ""
+)
+Song.create(
+  title: "National Anthem",
+  artist: "Lana Del Rey",
+  bpm: 85,
+  url: "#{baseurl}/NationalAnthem.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Off To The Races",
+  artist: "Lana Del Rey",
+  bpm: 160.125,
+  url: "#{baseurl}/OffToTheRaces.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Poker Face",
+  artist: "Lady Gaga",
+  bpm: 118.999,
+  url: "#{baseurl}/PokerFace.mp3",
+  tags: ""
+)
+Song.create(
+  title: "LoveGame",
+  artist: "Lady Gaga",
+  bpm: 105.041,
+  url: "#{baseurl}/LoveGame.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Paparazzi",
+  artist: "Lady Gaga",
+  bpm: 114.928,
+  url: "#{baseurl}/Paparazzi.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Alejandro",
+  artist: "Lady Gaga",
+  bpm: 98.986,
+  url: "#{baseurl}/Alejandro.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Bad Romance",
+  artist: "Lady Gaga",
+  bpm: 118.99,
+  url: "#{baseurl}/BadRomance.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Judas",
+  artist: "Lady Gaga",
+  bpm: 131.001,
+  url: "#{baseurl}/Judas.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Sexxx Dreams",
+  artist: "Lady Gaga",
+  bpm: 113.942,
+  url: "#{baseurl}/SexxxDreams.mp3",
+  tags: ""
+)
+
+Song.create(
+  title: "PONPONPON",
+  artist: "Kyary Pamyu Pamyu",
+  bpm: 128.022,
+  url: "#{baseurl}/PONPONPON.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Gucci Gucci",
+  artist: "Kreayshawn",
+  bpm: 77.508,
+  url: "#{baseurl}/GucciGucci.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Dum Dee Dum",
+  artist: "Keys N Krates",
+  bpm: 160.021,
+  url: "#{baseurl}/DumDeeDum.mp3",
+  tags: ""
+)
+Song.create(
+  title: "HUMBLE",
+  artist: "Kendrick Lamar",
+  bpm: 150.011,
+  url: "#{baseurl}/HUMBLE.m4a",
+  tags: ""
+)
+Song.create(
+  title: "DNA",
+  artist: "Kendrick Lamar",
+  bpm: 139.913,
+  url: "#{baseurl}/DNA.m4a",
+  tags: ""
+)
+Song.create(
+  title: "TiK ToK",
+  artist: "Ke$ha",
+  bpm: 120.032,
+  url: "#{baseurl}/TiKToK.mp3",
+  tags: ""
+)
+Song.create(
+  title: "I Kissed A Girl",
+  artist: "Katy Perry",
+  bpm: 129.996,
+  url: "#{baseurl}/IKissedAGirl.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Last Friday Night (T.G.I.F.)",
+  artist: "Katy Perry",
+  bpm: 126.03,
+  url: "#{baseurl}/LastFridayNight(T.G.I.F.).mp3",
+  tags: ""
+)
+Song.create(
+  title: "Teenage Dream",
+  artist: "Katy Perry",
+  bpm: 119.999,
+  url: "#{baseurl}/TeenageDream.mp3",
+  tags: ""
+)
+Song.create(
+  title: "I'm In It",
+  artist: "Kanye West",
+  bpm: 120.142,
+  url: "#{baseurl}/I'mInIt.m4a",
+  tags: ""
+)
+Song.create(
+  title: "Send It Up",
+  artist: "Kanye West",
+  bpm: 93.003,
+  url: "#{baseurl}/SendItUp.m4a",
+  tags: ""
+)
+Song.create(
+  title: "Black Skinhead",
+  artist: "Kanye West",
+  bpm: 130.041,
+  url: "#{baseurl}/BlackSkinhead.m4a",
+  tags: ""
+)
+Song.create(
+  title: "Feedback",
+  artist: "Kanye West",
+  bpm: 100.17,
+  url: "#{baseurl}/Feedback.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Wolves",
+  artist: "Kanye West",
+  bpm: 78.248,
+  url: "#{baseurl}/Wolves.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Fade",
+  artist: "Kanye West",
+  bpm: 105.986,
+  url: "#{baseurl}/Fade.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Famous",
+  artist: "Kanye West",
+  bpm: 174.1,
+  url: "#{baseurl}/Famous.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Monster",
+  artist: "Kanye West",
+  bpm: 124.791,
+  url: "#{baseurl}/Monster.m4a",
+  tags: ""
+)
+Song.create(
+  title: "All Of The Lights",
+  artist: "Kanye West",
+  bpm: 142.135,
+  url: "#{baseurl}/AllOfTheLights.m4a",
+  tags: ""
+)
+Song.create(
+  title: "Power",
+  artist: "Kanye West",
+  bpm: 153.998,
+  url: "#{baseurl}/Power.m4a",
+  tags: ""
+)
+Song.create(
+  title: "Gold Digger",
+  artist: "Kanye West",
+  bpm: 92.939,
+  url: "#{baseurl}/GoldDigger.m4a",
+  tags: ""
+)
+
+Song.create(
+  title: "The New Workout Plan",
+  artist: "Kanye West",
+  bpm: 117.993,
+  url: "#{baseurl}/TheNewWorkoutPlan.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Intuition",
+  artist: "Jewel",
+  bpm: 100.031,
+  url: "#{baseurl}/Intuition.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Don't Tell' Em",
+  artist: "Jeremih",
+  bpm: 97.988,
+  url: "#{baseurl}/Don'tTell'Em.mp3",
+  tags: ""
+)
+Song.create(
+  title: "All The Time",
+  artist: "Jeremih",
+  bpm: 109.959,
+  url: "#{baseurl}/AllTheTime.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Jenny From The Block",
+  artist: "Jennifer Lopez",
+  bpm: 100.004,
+  url: "#{baseurl}/JennyFromTheBlock.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Gotta Have It",
+  artist: "Jay-Z",
+  bpm: 149.996,
+  url: "#{baseurl}/GottaHaveIt.m4a",
+  tags: ""
+)
+Song.create(
+  title: "Niggas In Paris",
+  artist: "Jay-Z & Kanye West",
+  bpm: 140.047,
+  url: "#{baseurl}/NiggasInParis.m4a",
+  tags: ""
+)
+Song.create(
+  title: "Hit The Quan",
+  artist: "iLoveMemphis",
+  bpm: 160.018,
+  url: "#{baseurl}/HitTheQuan.mp3",
+  tags: ""
+)
+Song.create(
+  title: "I Love It",
+  artist: "Icona Pop",
+  bpm: 125.927,
+  url: "#{baseurl}/ILoveIt.mp3",
+  tags: ""
+)
+Song.create(
+  title: "Rich Girl",
+  artist: "Gwen Stefani",
+  bpm: 98.018,
+  url: "#{baseurl}/RichGirl.mp3",
+  tags: ""
+)
+Song.create(
+  title: "The Sweet Escape",
+  artist: "Gwen Stefani",
+  bpm: 92.409,
+  url: "#{baseurl}/TheSweetEscape.mp3",
+  tags: ""
 )
