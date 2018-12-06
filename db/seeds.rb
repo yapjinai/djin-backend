@@ -1,7 +1,7 @@
 Song.delete_all
 
-# baseurl = 'http://localhost:3001'
-baseurl = 'https://s3.us-east-2.amazonaws.com/djin'
+baseurl = 'https://s3.us-east-2.amazonaws.com/djin/mine'
+otherbaseurl = 'https://s3.us-east-2.amazonaws.com/djin/others'
 
 Song.create(
   title: 'Pink And Blue',
@@ -93,7 +93,7 @@ Song.create(
   artist: 'GFOTY',
   bpm: 130,
   url: "#{baseurl}/Kiss.wav",
-  tags: "pop, beat"
+  tags: "pop, beat, weird"
 )
 Song.create(
   title: 'Dead Island',
@@ -107,7 +107,7 @@ Song.create(
   artist: 'SOPHIE',
   bpm: 130,
   url: "#{baseurl}/VYZEE.mp3",
-  tags: "pop, beat"
+  tags: "pop, beat, weird"
 )
 Song.create(
   title: 'Thunder Bay',
@@ -135,14 +135,14 @@ Song.create(
   artist: 'A. G. Cook',
   bpm: 160,
   url: "#{baseurl}/MoneyOnAGoldPlate.mp3",
-  tags: "pop, beat"
+  tags: "pop, beat, weird"
 )
 Song.create(
   title: 'Lover',
   artist: 'GFOTY',
   bpm: 170,
   url: "#{baseurl}/Lover.wav",
-  tags: "pop, beat"
+  tags: "pop, beat, weird"
 )
 Song.create(
   title: 'Inspector Norse',
@@ -691,27 +691,27 @@ Song.create(
   url: "#{baseurl}/S&M.m4a",
   tags: "pop, beat"
 )
-# Song.create(
-#   title: "Disturbia",
-#   artist: "Rihanna",
-#   bpm: ,
-#   url: "#{baseurl}/Disturbia.m4a",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Umbrella",
-#   artist: "Rihanna",
-#   bpm: ,
-#   url: "#{baseurl}/Umbrella.m4a",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Bitch Better Have My Money",
-#   artist: "Rihanna",
-#   bpm: ,
-#   url: "#{baseurl}/BitchBetterHaveMyMoney.mp3",
-#   tags: ""
-# )
+Song.create(
+  title: "Disturbia",
+  artist: "Rihanna",
+  bpm: 124.921,
+  url: "#{baseurl}/Disturbia.m4a",
+  tags: "pop,house,rnb,beat"
+)
+Song.create(
+  title: "Umbrella",
+  artist: "Rihanna",
+  bpm: 174.028,
+  url: "#{baseurl}/Umbrella.m4a",
+  tags: "pop"
+)
+Song.create(
+  title: "Bitch Better Have My Money",
+  artist: "Rihanna",
+  bpm: 102.95,
+  url: "#{baseurl}/BitchBetterHaveMyMoney.mp3",
+  tags: "pop,trap,hiphop"
+)
 Song.create(
   title: "Never Gonna Give You Up",
   artist: "Rick Astley",
@@ -719,132 +719,132 @@ Song.create(
   url: "#{baseurl}/NeverGonnaGiveYouUp.mp3",
   tags: "pop"
 )
-# Song.create(
-#   title: "Sanctified",
-#   artist: "Rick Ross",
-#   bpm: ,
-#   url: "#{baseurl}/Sanctified.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Seventeen Years",
-#   artist: "Ratatat",
-#   bpm: ,
-#   url: "#{baseurl}/SeventeenYears.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Kennedy",
-#   artist: "Ratatat",
-#   bpm: ,
-#   url: "#{baseurl}/Kennedy.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Loud Pipes",
-#   artist: "Ratatat",
-#   bpm: ,
-#   url: "#{baseurl}/LoudPipes.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Throw Sum Mo",
-#   artist: "Rae Sremmurd",
-#   bpm: ,
-#   url: "#{baseurl}/ThrowSumMo.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "No Flex Zone",
-#   artist: "Rae SremmurdRae Sremmurd",
-#   bpm: ,
-#   url: "#{baseurl}/NoFlexZone.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Lit Like Bic",
-#   artist: "Rae Sremmurd",
-#   bpm: ,
-#   url: "#{baseurl}/LitLikeBic.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "2 + 2 = 5",
-#   artist: "Radiohead",
-#   bpm: ,
-#   url: "#{baseurl}/2+2=5.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "15 Step",
-#   artist: "Radiohead",
-#   bpm: ,
-#   url: "#{baseurl}/15Step.MP3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Everything In Its Right Place",
-#   artist: "Radiohead",
-#   bpm: ,
-#   url: "#{baseurl}/EverythingInItsRightPlace.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Hey QT",
-#   artist: "QT",
-#   bpm: ,
-#   url: "#{baseurl}/HeyQT.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Gangnam Style",
-#   artist: "PSY",
-#   bpm: ,
-#   url: "#{baseurl}/GangnamStyle.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Daddy",
-#   artist: "PSY",
-#   bpm: ,
-#   url: "#{baseurl}/Daddy.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Less Love More Sex",
-#   artist: "Princess Bambi",
-#   bpm: ,
-#   url: "#{baseurl}/LessLoveMoreSex.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Young Folks",
-#   artist: "Peter Bjorn and John",
-#   bpm: ,
-#   url: "#{baseurl}/YoungFolks.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Fuck The Pain Away",
-#   artist: "Peaches",
-#   bpm: ,
-#   url: "#{baseurl}/FuckThePainAway.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Booty Swing",
-#   artist: "Parov Stelar",
-#   bpm: ,
-#   url: "#{baseurl}/BootySwing.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "All Night",
-#   artist: "Parov Stelar",
-#   bpm: ,
-#   url: "#{baseurl}/AllNight.mp3",
-#   tags: ""
-# )
+Song.create(
+  title: "Sanctified",
+  artist: "Rick Ross",
+  bpm: 126.041,
+  url: "#{baseurl}/Sanctified.mp3",
+  tags: "rnb"
+)
+Song.create(
+  title: "Seventeen Years",
+  artist: "Ratatat",
+  bpm: 115.545,
+  url: "#{baseurl}/SeventeenYears.mp3",
+  tags: "house,trap"
+)
+Song.create(
+  title: "Kennedy",
+  artist: "Ratatat",
+  bpm: 110.003,
+  url: "#{baseurl}/Kennedy.mp3",
+  tags: "house,trap"
+)
+Song.create(
+  title: "Loud Pipes",
+  artist: "Ratatat",
+  bpm: 87.975,
+  url: "#{baseurl}/LoudPipes.mp3",
+  tags: "house,trap"
+)
+Song.create(
+  title: "Throw Sum Mo",
+  artist: "Rae Sremmurd",
+  bpm: 142.053,
+  url: "#{baseurl}/ThrowSumMo.mp3",
+  tags: "hiphop"
+)
+Song.create(
+  title: "No Flex Zone",
+  artist: "Rae SremmurdRae Sremmurd",
+  bpm: 120.08,
+  url: "#{baseurl}/NoFlexZone.mp3",
+  tags: "hiphop"
+)
+Song.create(
+  title: "Lit Like Bic",
+  artist: "Rae Sremmurd",
+  bpm: 124.011,
+  url: "#{baseurl}/LitLikeBic.mp3",
+  tags: "hiphop"
+)
+Song.create(
+  title: "2 + 2 = 5",
+  artist: "Radiohead",
+  bpm: 149.582,
+  url: "#{baseurl}/2+2=5.mp3",
+  tags: "x"
+)
+Song.create(
+  title: "15 Step",
+  artist: "Radiohead",
+  bpm: 94.457,
+  url: "#{baseurl}/15Step.MP3",
+  tags: "x"
+)
+Song.create(
+  title: "Everything In Its Right Place",
+  artist: "Radiohead",
+  bpm: 124.004,
+  url: "#{baseurl}/EverythingInItsRightPlace.mp3",
+  tags: "x"
+)
+Song.create(
+  title: "Hey QT",
+  artist: "QT",
+  bpm: 129.046,
+  url: "#{baseurl}/HeyQT.mp3",
+  tags: "pop,weird,beat"
+)
+Song.create(
+  title: "Gangnam Style",
+  artist: "PSY",
+  bpm: 132.07,
+  url: "#{baseurl}/GangnamStyle.mp3",
+  tags: "pop,beat"
+)
+Song.create(
+  title: "DADDY",
+  artist: "PSY",
+  bpm: 132.049,
+  url: "#{baseurl}/Daddy.mp3",
+  tags: "pop,beat"
+)
+Song.create(
+  title: "Less Love More Sex",
+  artist: "Princess Bambi",
+  bpm: 79,
+  url: "#{baseurl}/LessLoveMoreSex.mp3",
+  tags: "pop,weird"
+)
+Song.create(
+  title: "Young Folks",
+  artist: "Peter Bjorn and John",
+  bpm: 138.142,
+  url: "#{baseurl}/YoungFolks.mp3",
+  tags: "pop"
+)
+Song.create(
+  title: "Fuck The Pain Away",
+  artist: "Peaches",
+  bpm: 131.597,
+  url: "#{baseurl}/FuckThePainAway.mp3",
+  tags: "pop,hiphop,beat"
+)
+Song.create(
+  title: "Booty Swing",
+  artist: "Parov Stelar",
+  bpm: 112.966,
+  url: "#{baseurl}/BootySwing.mp3",
+  tags: "house,trap"
+)
+Song.create(
+  title: "All Night",
+  artist: "Parov Stelar",
+  bpm: 125.021,
+  url: "#{baseurl}/AllNight.mp3",
+  tags: "house,trap"
+)
 # Song.create(
 #   title: "B.O.B.",
 #   artist: "",
@@ -852,146 +852,146 @@ Song.create(
 #   url: "#{baseurl}/B.O.B..mp3",
 #   tags: ""
 # )
-# Song.create(
-#   title: "Ms. Jackson",
-#   artist: "Outkast",
-#   bpm: ,
-#   url: "#{baseurl}/Ms.Jackson.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "So Fresh, So Clean",
-#   artist: "Outkast",
-#   bpm: ,
-#   url: "#{baseurl}/SoFresh,SoClean.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Gasoline Dreams",
-#   artist: "Outkast",
-#   bpm: ,
-#   url: "#{baseurl}/GasolineDreams.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Sunday Morning",
-#   artist: "No Doubt",
-#   bpm: ,
-#   url: "#{baseurl}/SundayMorning.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Just A Girl",
-#   artist: "No Doubt",
-#   bpm: ,
-#   url: "#{baseurl}/JustAGirl.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Excuse Me Mr.",
-#   artist: "No Doubt",
-#   bpm: ,
-#   url: "#{baseurl}/ExcuseMeMr..mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Hey Baby",
-#   artist: "No Doubt",
-#   bpm: ,
-#   url: "#{baseurl}/HeyBaby.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Smells Like Teen Spirit",
-#   artist: "Nirvana",
-#   bpm: ,
-#   url: "#{baseurl}/SmellsLikeTeenSpirit.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "I Got AWoman",
-#   artist: "Nicolas Jaar",
-#   bpm: ,
-#   url: "#{baseurl}/IGotAWoman.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Colomb",
-#   artist: "Nicolas Jaar",
-#   bpm: ,
-#   url: "#{baseurl}/Colomb.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Truffle Butter",
-#   artist: "Nicki Minaj",
-#   bpm: ,
-#   url: "#{baseurl}/TruffleButter.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Trini Dem Girls",
-#   artist: "Nicki Minaj",
-#   bpm: ,
-#   url: "#{baseurl}/TriniDemGirls.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Anaconda",
-#   artist: "Nicki Minaj",
-#   bpm: ,
-#   url: "#{baseurl}/Anaconda.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "I Endorse These Strippers",
-#   artist: "Nicki Minaj",
-#   bpm: ,
-#   url: "#{baseurl}/IEndorseTheseStrippers.m4a",
-#   tags: ""
-# )
-# Song.create(
-#   title: "I'm Legit",
-#   artist: "Nicki Minaj",
-#   bpm: ,
-#   url: "#{baseurl}/I'mLegit.m4a",
-#   tags: ""
-# )
-# Song.create(
-#   title: "I Am Your Leader",
-#   artist: "Nicki Minaj",
-#   bpm: ,
-#   url: "#{baseurl}/IAmYourLeader.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Stupid Hoe",
-#   artist: "Nicki Minaj",
-#   bpm: ,
-#   url: "#{baseurl}/StupidHoe.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Pound The Alarm",
-#   artist: "Nicki Minaj",
-#   bpm: ,
-#   url: "#{baseurl}/PoundTheAlarm.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Beez In The Trap",
-#   artist: "Nicki Minaj",
-#   bpm: ,
-#   url: "#{baseurl}/BeezInTheTrap.mp3",
-#   tags: ""
-# )
-# Song.create(
-#   title: "Come On A Cone",
-#   artist: "Nicki Minaj",
-#   bpm: ,
-#   url: "#{baseurl}/ComeOnACone.mp3",
-#   tags: ""
-# )
+Song.create(
+  title: "Ms. Jackson",
+  artist: "Outkast",
+  bpm: 94.946,
+  url: "#{baseurl}/Ms.Jackson.mp3",
+  tags: "rnb"
+)
+Song.create(
+  title: "So Fresh, So Clean",
+  artist: "Outkast",
+  bpm: 166.029,
+  url: "#{baseurl}/SoFresh,SoClean.mp3",
+  tags: "rnb"
+)
+Song.create(
+  title: "Gasoline Dreams",
+  artist: "Outkast",
+  bpm: 95.082,
+  url: "#{baseurl}/GasolineDreams.mp3",
+  tags: "rnb"
+)
+Song.create(
+  title: "Sunday Morning",
+  artist: "No Doubt",
+  bpm: 157.109,
+  url: "#{baseurl}/SundayMorning.mp3",
+  tags: "pop"
+)
+Song.create(
+  title: "Just A Girl",
+  artist: "No Doubt",
+  bpm: 108.011,
+  url: "#{baseurl}/JustAGirl.mp3",
+  tags: "pop"
+)
+Song.create(
+  title: "Excuse Me Mr.",
+  artist: "No Doubt",
+  bpm: 145.917,
+  url: "#{baseurl}/ExcuseMeMr..mp3",
+  tags: "pop"
+)
+Song.create(
+  title: "Hey Baby",
+  artist: "No Doubt",
+  bpm: 187.305,
+  url: "#{baseurl}/HeyBaby.mp3",
+  tags: "pop"
+)
+Song.create(
+  title: "Smells Like Teen Spirit",
+  artist: "Nirvana",
+  bpm: 116.775,
+  url: "#{baseurl}/SmellsLikeTeenSpirit.mp3",
+  tags: "x"
+)
+Song.create(
+  title: "I Got A Woman",
+  artist: "Nicolas Jaar",
+  bpm: 79,
+  url: "#{baseurl}/IGotAWoman.mp3",
+  tags: "house"
+)
+Song.create(
+  title: "Colomb",
+  artist: "Nicolas Jaar",
+  bpm: 158.064,
+  url: "#{baseurl}/Colomb.mp3",
+  tags: "house"
+)
+Song.create(
+  title: "Truffle Butter",
+  artist: "Nicki Minaj",
+  bpm: 105.098,
+  url: "#{baseurl}/TruffleButter.mp3",
+  tags: "pop,hiphop"
+)
+Song.create(
+  title: "Trini Dem Girls",
+  artist: "Nicki Minaj",
+  bpm: 109.982,
+  url: "#{baseurl}/TriniDemGirls.mp3",
+  tags: "pop,hiphop"
+)
+Song.create(
+  title: "Anaconda",
+  artist: "Nicki Minaj",
+  bpm: 129.994,
+  url: "#{baseurl}/Anaconda.mp3",
+  tags: "pop,weird"
+)
+Song.create(
+  title: "I Endorse These Strippers",
+  artist: "Nicki Minaj",
+  bpm: 147.998,
+  url: "#{baseurl}/IEndorseTheseStrippers.m4a",
+  tags: "pop,house,hiphop"
+)
+Song.create(
+  title: "I'm Legit",
+  artist: "Nicki Minaj",
+  bpm: 75.002,
+  url: "#{baseurl}/I'mLegit.m4a",
+  tags: "pop,trap,beat"
+)
+Song.create(
+  title: "I Am Your Leader",
+  artist: "Nicki Minaj",
+  bpm: 81.955,
+  url: "#{baseurl}/IAmYourLeader.mp3",
+  tags: "pop,beat"
+)
+Song.create(
+  title: "Stupid Hoe",
+  artist: "Nicki Minaj",
+  bpm: 100.014,
+  url: "#{baseurl}/StupidHoe.mp3",
+  tags: "pop,hiphop,weird"
+)
+Song.create(
+  title: "Pound The Alarm",
+  artist: "Nicki Minaj",
+  bpm: 125.054,
+  url: "#{baseurl}/PoundTheAlarm.mp3",
+  tags: "pop,beat"
+)
+Song.create(
+  title: "Beez In The Trap",
+  artist: "Nicki Minaj",
+  bpm: 150.011,
+  url: "#{baseurl}/BeezInTheTrap.mp3",
+  tags: "pop,hiphop"
+)
+Song.create(
+  title: "Come On A Cone",
+  artist: "Nicki Minaj",
+  bpm: 154.061,
+  url: "#{baseurl}/ComeOnACone.mp3",
+  tags: "pop,hiphop,weird,beat"
+)
 # Song.create(
 #   title: "Promiscuous",
 #   artist: "",
@@ -2479,7 +2479,6 @@ Song.create(
 
 ########################
 
-otherbaseurl = 'https://s3.us-east-2.amazonaws.com/djin/others'
 
 Song.create(
   title: "Believer",
@@ -2535,14 +2534,14 @@ Song.create(
   artist: "T BABY / Youtube poop",
   bpm: 80.047,
   url: "#{otherbaseurl}/It's+So+Cold+in+the+D.mp3",
-  tags: "flatiron"
+  tags: "flatiron weird"
 )
 Song.create(
   title: "Dog of Wisdom",
   artist: "Joe / Youtube poop",
   bpm: 100,
   url: "#{otherbaseurl}/Dog+of+Wisdom.mp3",
-  tags: "flatiron"
+  tags: "flatiron weird"
 )
 Song.create(
   title: "Awoo",
@@ -2703,14 +2702,14 @@ Song.create(
   artist: "Donald Trump / Youtube poop",
   bpm: 106.96,
   url: "#{otherbaseurl}/Ariana+Grande+-+Thank+u%2C+next+(cover+by+Donald+Trump+).mp3",
-  tags: "flatiron"
+  tags: "flatiron weird"
 )
 Song.create(
   title: "c r o i s s a n t  d r e a m s (ｃｒｏｉｓｓａｎｔ ｄｒｅａｍｓ)",
   artist: "Cyranek / Youtube poop",
   bpm: 130,
   url: "#{otherbaseurl}/%EF%BD%83%EF%BD%92%EF%BD%8F%EF%BD%89%EF%BD%93%EF%BD%93%EF%BD%81%EF%BD%8E%EF%BD%94+%EF%BD%84%EF%BD%92%EF%BD%85%EF%BD%81%EF%BD%8D%EF%BD%93.mp3",
-  tags: "flatiron"
+  tags: "flatiron weird"
 )
 Song.create(
   title: "What Is Love",
@@ -2724,7 +2723,7 @@ Song.create(
   artist: "Matt Mulholland / Youtube poop",
   bpm: 98.347,
   url: "#{otherbaseurl}/My+Heart+Will+Go+On+-+Recorder+By+Candlelight+by+Matt+Mulholland.mp3",
-  tags: "flatiron"
+  tags: "flatiron weird"
 )
 Song.create(
   title: "Africa",
